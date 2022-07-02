@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background: #000;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+.album {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.album span {
+  color: #fff;
+  font-size: 0.8rem;
+}
+.album img {
+  margin-right: 0.5rem;
+}
+section.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+}
+.container {
+    background: #eee;
+    width: 40rem;
+}
